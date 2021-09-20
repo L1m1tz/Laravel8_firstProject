@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 
 //Laravel 8 (New)
 Route::get('/products', [ProductsController::class, 'index']);
-Route::get('/products/about',[ProductsController::class, 'about']);
+Route::get('/products/about',[ProductsController::class, 'about']); 
 
 //Laravel 8 (Also New)
 Route::get('/products', 'App\Http\Controllers\ProductsController@index');
